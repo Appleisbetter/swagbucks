@@ -1,0 +1,150 @@
+body {
+    margin:auto;
+    font: 80%;
+    width: 1460px;
+    height: 868px;
+    max-width: 1269px;
+    min-width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html{
+    background-image: url('../images/Amazon.jpg');
+}
+
+.wrapper {
+    display: grid;
+    background: no-repeat;
+    grid-gap: 10px;
+    grid-template-columns: repeat(9,150px);
+    grid-template-rows: repeat(17,150px);
+    background-color:white;
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+.box{
+    border:1px solid #444;
+    padding: 100px;
+    font-size: 150%;
+}
+
+.a{
+ grid-column: 1/5;
+ grid-row: 1/5;
+ align-self: stretch;
+ overflow: scroll;
+ font-family: the;
+ 
+ 
+
+}
+.b{
+    grid-column: 1/5;
+    grid-row: 10/14;
+    align-self: stretch;
+    overflow: scroll;
+    font-family: the;
+    
+}
+.c{
+    grid-column: 1/5;
+    grid-row: 5/10;
+    align-self:stretch;
+    overflow: scroll;
+    font-family: the;
+}
+
+.d{
+    grid-column:5/9;
+    grid-row:1/5;
+    align-self:stretch;
+    overflow: scroll;
+    font-family: the;
+    
+    
+}
+
+.e{
+    grid-column: 5/9;
+    grid-row: 5/8;
+    align-self: stretch;
+    background-image: url('../images/Coronado-and-Governing-Board-20-X2.jpg');
+    background-size: 650px;
+   
+}
+
+.f{
+    grid-column: 5/9;
+    grid-row: 8/10;
+    background-image: url('../images/ESUNDS.jpg');
+    background-size: 650px;
+   
+}
+.g{
+    grid-column: 1/5;
+    grid-row: 14/16;
+    background-image: url('../images/TFK.jpg');
+    background-size: 850px;
+}
+.h{
+    grid-column: 1/5;
+    grid-row: 16/18;
+    background-image: url('../images/cheese.jpg');
+    background-size: 600px;
+    filter: drop-shadow(16px 16px 20px black );
+}
+.i{
+    grid-column: 5/9;
+    grid-row: 10/14;
+    overflow: scroll;
+    font-family: the;
+}
+.j{
+    grid-column: 5/9;
+    grid-row: 14/16;
+    background-image: url('../images/friends-and-family-night.jpg');
+}
+
+.k{
+    grid-column: 5/9;
+    grid-row: 16/18;
+    background-image: url('../images/scottsdale-arts-festival.jpg');
+    background-size: 716px;
+}
+footer {
+    padding: 15px 0px;
+    background-color: #333;
+    text-align: center;
+    font-size: 0.9em;
+    grid-column: 1/9;
+    grid-row: 9/10;
+
+
+  }

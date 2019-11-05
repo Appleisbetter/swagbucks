@@ -1,0 +1,10 @@
+@font-face{
+    font-family: 'hi';
+    src: url("fonts/Lambola\ Demo.ttf") format("truetype");
+    font-size: 10em;
+}
+
+@font-face{
+    font-family: 'hey';
+    src: url("fonts/Lambola\ Demo.ttf") format("truetype");
+}
